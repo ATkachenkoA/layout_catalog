@@ -94,6 +94,7 @@ a.is-active:hover {
 }
 
 .cards-container {
+  margin: 0 auto;
   display: grid;
   box-sizing: border-box;
   padding: 50px 40px;
@@ -255,11 +256,26 @@ a.is-active:hover {
     color: #060b35;
   }
 
+  &__button-container {
+    display: flex;
+    box-sizing: border-box;
+
+    width: 166px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+
   &__button {
     display: flex;
+
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
+
     margin-top: 16px;
     margin-bottom: 0;
     padding: 0;
